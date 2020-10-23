@@ -49,8 +49,8 @@ const aggregate = async () => {
         console.log('no cmp')
       }
       const idokep = await p.$('.aloldal-elorejelzes')
-      await idokep.screenshot({ path: 'idokep.png' })
-      const idokepBase64 = fs.readFileSync('idokep.png', 'base64')
+      await idokep.screenshot({ path: __dirname + '/idokep.png' })
+      const idokepBase64 = fs.readFileSync(__dirname + '/idokep.png', 'base64')
       await p.close()
       return (
         〱 +
@@ -75,8 +75,8 @@ const aggregate = async () => {
         console.log('no cmp')
       }
       const idokep = await p.$('#terkep-box')
-      await idokep.screenshot({ path: 'felhokep.png' })
-      const idokepBase64 = fs.readFileSync('felhokep.png', 'base64')
+      await idokep.screenshot({ path: __dirname + '/felhokep.png' })
+      const idokepBase64 = fs.readFileSync(__dirname + '/felhokep.png', 'base64')
       await p.close()
       return 〱 + `<img src="data:image/png;base64,${idokepBase64}" class="img-fluid mx-auto d-block" alt="fk" />` + 〳
     } catch (e) {
