@@ -1,0 +1,16 @@
+{
+  "name": "my-puppeteer-agggregator-webpage",
+  "version": "1.0.0",
+  "description": "A scraper which creates an aggregator homepage",
+  "main": "index.js",
+  "author": "David Barton (theDavidBarton)",
+  "license": "MIT",
+  "repository": "github:theDavidBarton/my-puppeteer-aggregator-webpage",
+  "homepage": "https://github.com/theDavidBarton/my-puppeteer-aggregator-webpage",
+  "engines": {
+    "node": ">=10.18.1"
+  },
+  "dependencies": {
+    "puppeteer": "^3.0.2"
+  }
+}

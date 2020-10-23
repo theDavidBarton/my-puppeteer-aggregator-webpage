@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>David Barton's Aggregator Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta charset="utf-8" />
+    <style>
+    * {
+        font-family: 'Special Elite', sans-serif;
+    }
+    </style>
+</head>
+<body class="bg-light">
+<header class="container">
+<h1 class="row p-4">the<wbr>DavidBarton's Aggregator</h1>
+</header>
+<main class="container">
+<section class="row">
