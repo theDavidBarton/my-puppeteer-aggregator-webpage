@@ -29,8 +29,8 @@ const fs = require('fs')
 
 const aggregate = async () => {
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] })
-  const top = fs.readFileSync('markupTop.template', 'utf-8')
-  const bottom = fs.readFileSync('markupBottom.template', 'utf-8')
+  const top = fs.readFileSync('./markupTop.template', 'utf-8')
+  const bottom = fs.readFileSync('./markupBottom.template', 'utf-8')
   const 〱 = '<div class="col-auto col-lg-6">'
   const 〳 = '</div>'
   const weatherHeader = '<h2>Weather ⛅</h2>'
