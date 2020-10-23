@@ -1,6 +1,6 @@
 {
   "name": "my-puppeteer-agggregator-webpage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A scraper which creates an aggregator homepage",
   "main": "index.js",
   "author": "David Barton (theDavidBarton)",
